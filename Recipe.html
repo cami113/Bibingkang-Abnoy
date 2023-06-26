@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Magandang Site</title>
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+</head>
+
+<body background="image/Bg.png">
+    <div class="navbar-fixed">
+        <ul id="dropdown1" class="dropdown-content">
+            <li><a href="Recipe.html">Cupcake</a></li>
+            <br>
+            <li><a href="#!">Unicorn</a></li>
+            <!-- <li class="divider"></li> para sa line-->
+            <br>
+            <li><a href="#!">Magic</a></li>
+        </ul>
+        <nav class="pink lighten-4">
+            
+        <!-- Eto yung navbar -->
+            <div class="container">
+                <ul class="left">
+                    <li><a href="" class="brand-logo left">Twinkle and Sparkles</a></li>
+                </ul>
+            </div>
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <!-- para mahide -->
+                    <li><a href="Navbar.html">Home</a></li>
+                    <li><a class="dropdown-trigger" href="#!" data-target="dropdown1">Articles<i class="material-icons right">arrow_drop_down</i></a></li>
+                    <li><a class="sidenav-trigger show-on-large" href="#!" data-target="slide-out"><i class="material-icons">menu</i></a></li>
+            </ul>
+        </nav>
+    </div>
+    <!-- Maglagay ng code -->
+    <!-- <div class="container"> -->
+    <!-- Container muna para maayos -->
+    <br><br>
+    <div class="container">
+        <div class="col s12 m12 l12">
+            <div class="card-panel grey lighten-5 z-depth-1">
+                <div class="row valign-wrapper">
+                    <div class="col s3 offset-s2 m3 offset-m2 l4 offset-l1">
+                    <!-- s size ng image -->
+                        <img src="image/Profile.jpg" alt="" class="circle responsive-img materialboxed responsive-img" data-caption="Ninong Ry's Profile Picture on his Youtube Account">
+                        <!-- notice the "circle" class -->
+                    </div>
+                    <div class="col s9 m9 l9">
+                        <h3>
+                            All About Ninong Ry
+                        </h3>
+                        <h6>
+                            @NinongRy 1.95M subscribers
+                        </h6>
+                    </div>
+                </div>
+
+            <h6 class="grey-text text-darken-3">
+                Ninong Ry is born in April 19, 1989 in Malabon, Manila. He is a cullinary graduate of one of the most prestigious universities in the Philippines. He is also a famous youtuber that primally makes cooking video content in his channel, kunwari marami pang ebas dito, magandang description kunwari.
+                To get to know him better, watch this video of him.
+            </h6>
+        <!-- </div> -->
+            </div>
+        </div>
+        <div class="video-container">
+            <iframe width="815" height="458" src="https://www.youtube.com/embed/LpLpedZzm_g" title="BOH: CHEF BOY LOGRO ORIGINS | Ninong Ry" frameborder="0" allow="accelerometer; clipboard-write; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </div>
+    <br>
+    <div class="container">
+        <div class="col s12 m12 l12">
+            <div class="card-panel grey lighten-5 z-depth-1">
+                <h5 class="grey-text lighten-3">
+                    This site is supported by these ads:
+                </h5>
+                <div class="col s12 m6 l6">
+                    <div class="slider">
+                        <ul class="slides">
+                        <li>
+                            <img src="image/cover 1.webp" alt=""
+                            <h2>White Castle</h2>
+                        </li>
+                        <li>
+                            <img src="image/cover 2.jpg" alt=""
+                            <h2>Youtube</h2>
+                        </li>
+                        <li>
+                            <img src="image/cover 3.jpg" alt=""
+                            <h2>Chicken Oil</h2>
+                        </li>
+                        </ul>   
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+        <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+        <!-- Compiled and minified JavaScript -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+        <script>
+            $(document).ready(function(){
+            // pag ready na yung document may function na mangyayare
+                $('.materialboxed').materialbox({
+                // sinelect yung mga class na materialboxed tas gagawing materialbox na function
+                    inDuration: 100,
+                    outDuration: 100
+                    // mas mataas mas mabagal, per ms kasi
+                    // option sa https://materializecss.com/media.html
+                });
+                $('.slider').slider({
+                    indicators: false,
+                    height: 250,
+                    interval: 5000
+                })
+            });
+        </script>
+    </body>
+</html>

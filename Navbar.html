@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>New Upcoming Movies | Barbie 2023</title>
+</head>
+
+<body class="pink lighten-5">
+<!-- <nav>
+    <li><a href="Recipe.html">Home</a></li>
+    <li><a href="">About</a></li>
+    <li><a href="">Contact Us</a></li>
+    <li><a class="dropdown-trigger" href="#!" data-target="dropdown1">Dropdown<i class="material-icons right"></i></a></li>
+</nav> -->
+
+
+<div class="navbar-fixed">
+    <ul id="dropdown1" class="dropdown-content">
+        <li><a href="Recipe.html">Cupcake</a></li>
+        <br>
+        <li><a href="#!">Unicorn</a></li>
+        <!-- <li class="divider"></li> para sa line-->
+        <br>
+        <li><a href="#!">Magic</a></li>
+    </ul>
+    <nav class="pink lighten-4">
+        
+    <!-- Eto yung navbar -->
+        <div class="container">
+            <ul class="left">
+                <li><a href="" class="brand-logo left">Twinkle and Sparkles</a></li>
+            </ul>
+        </div>
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <!-- para mahide -->
+                <li><a href="Navbar.html">Home</a></li>
+                <li><a class="dropdown-trigger" href="#!" data-target="dropdown1">Articles<i class="material-icons right">arrow_drop_down</i></a></li>
+                <li><a class="sidenav-trigger show-on-large" href="#!" data-target="slide-out"><i class="material-icons">menu</i></a></li>
+        </ul>
+    </nav>
+</div>
+<ul id="slide-out" class="sidenav pink lighten-4">
+    <li><div class="user-view">
+        <div class="background">
+            <img src="image/BG.webp">
+            <br><br>
+        </div>
+        <a href="#user"><img class="circle" src="image/john-fowler-RsRTIofe0HE-unsplash.jpg"></a>
+        <a href="#name"><span class="white-text name">Malibu Barbie</span></a>
+    </div></li>
+    <li><a href="https://www.pinterest.ph/mademoisellestef/pink/"><span class="white-text">Gallery</span></a></li>
+    <li><a href="Oops.Html" class="white-text">Forums</a></li>
+    <li><div class="divider"></div></li>
+    <li><a class="waves-effect white-text" href="Oops.Html">About us</a></li>
+</ul>
+<div class="container">
+    <div class="col s12 m12 l12">
+<br><br><br>
+    </div>
+    <div class="video-container">
+        <iframe width="815" height="458" src="https://www.youtube.com/embed/pBk4NYhWNMM" title="Barbie | Main Trailer" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+</div>
+        <!-- Compiled and minified JavaScript -->
+        <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+<script>
+$(document).ready(function(){
+            // pag ready na yung document may function na mangyayare
+            $(".dropdown-trigger").dropdown();
+            //drop down
+            $('.sidenav').sidenav({
+                draggable: true,
+            });
+
+            });
+</script>
+    </body>
+</html>

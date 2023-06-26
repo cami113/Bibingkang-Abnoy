@@ -1,0 +1,14 @@
+
+h1,h2,h3,h4,h5,h6{
+    font-weight:300;
+    color: #ee6e73;
+}
+
+p {
+    color: black;
+}
+
+.gilid{
+    margin-block-start: 16px;
+    margin-block-end: 16px;
+}
